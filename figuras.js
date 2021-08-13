@@ -12,10 +12,6 @@ console.groupEnd();
 
 //Código del triangulo:
 console.group("Triengulos");
-const ladoTriangulo1 = 6;
-const ladoTriangulo2 = 6;
-const baseTriangulo = 4;
-console.log("Los lados del triangulo miden: " + ladoTriangulo1 + "cm, " + ladoTriangulo2 + "cm, " + baseTriangulo + "cm");
 
 const alturaTriangulo = 5.5;
 console.log("La altura del triangulo es: " + alturaTriangulo + "cm" );
@@ -23,8 +19,6 @@ console.log("La altura del triangulo es: " + alturaTriangulo + "cm" );
 const perimetroTriengulo = ladoTriangulo1 + ladoTriangulo2 + baseTriangulo;
 console.log("El perimetro del triangulo es: " + perimetroTriengulo + "cm");
 
-const areaTriangulo = (baseTriangulo * alturaTriangulo) /2;
-console.log("El área del triangulo: " + areaTriangulo + "cm^2");
 console.groupEnd();
 
 //Código del círculo:
